@@ -1,0 +1,17 @@
+### get all persons
+GET https://lingering-thunder-7812.fly.dev/api/persons/
+
+### get 1 person
+GET https://lingering-thunder-7812.fly.dev/api/persons/2330
+
+### delete person
+DELETE https://lingering-thunder-7812.fly.dev/api/persons/233j
+
+### add person
+POST https://lingering-thunder-7812.fly.dev/api/persons/ HTTP/3
+content-type: application/json
+
+{
+    "name": "sample name",
+    "number": "0123456789"
+}
