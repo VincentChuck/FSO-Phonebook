@@ -9,7 +9,7 @@
     "dev": "nodemon index.js",
     "build:ui": "rm -rf build && cd ../Full-Stack-open-exercises/part2/phonebook/ && npm run build && cp -r build ~/repos/FSO-Phonebook/",
     "deploy": "fly deploy",
-    "deploy:full": "npm run build:ui && npm run deploy",    
+    "deploy:full": "npm run build:ui && npm run deploy",
     "logs:prod": "fly logs"
   },
   "repository": {
@@ -28,6 +28,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "mongoose": "^6.6.5",
     "morgan": "^1.10.0"
   }
 }
